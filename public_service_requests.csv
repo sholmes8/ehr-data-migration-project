@@ -1,0 +1,11 @@
+request_id,department,request_type,submitted_date,resolution_days,status,priority
+1001,Public Works,Permit,2024-09-01,5,Completed,Medium
+1002,Code Enforcement,Inspection,2024-09-02,8,Completed,High
+1003,Transportation,Repair,2024-09-03,12,Delayed,High
+1004,Public Works,Permit,2024-09-04,4,Completed,Low
+1005,Parks & Recreation,Maintenance,2024-09-05,6,Completed,Medium
+1006,Code Enforcement,Inspection,2024-09-06,10,Delayed,High
+1007,Transportation,Repair,2024-09-07,7,Completed,Medium
+1008,Public Works,Permit,2024-09-08,3,Completed,Low
+1009,Parks & Recreation,Maintenance,2024-09-09,9,Delayed,High
+1010,Public Works,Permit,2024-09-10,4,Completed,Low
