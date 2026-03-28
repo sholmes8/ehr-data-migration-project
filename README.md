@@ -228,6 +228,8 @@ This visualization demonstrates how healthcare data can be used to improve workf
 - Add real-time analytics
 - Expand dataset for deeper insights
 
+---
+
 ## Example SQL Queries
 ```sql
 -- Count total appointments
@@ -248,6 +250,8 @@ GROUP BY status;
 SELECT appointment_date, COUNT(*) 
 FROM appointments
 GROUP BY appointment_date
+
+---
 
 ## 📁 Project Structure
 
