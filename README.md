@@ -221,12 +221,15 @@ This visualization demonstrates how healthcare data can be used to improve workf
 
 ---
 
-## 🚀 Future Improvements
-
-- Integrate with live database (PostgreSQL/MySQL)
-- Build interactive dashboard (Power BI / Tableau)
-- Add real-time analytics
-- Expand dataset for deeper insights
+## 📁 Project Structure
+ehr-data-migration-project/
+├── data/
+│   └── ehr-appointments.csv
+├── sql/
+│   └── ehr-queries.sql
+├── visuals/
+│   └── ehr-dashboard.png
+├── README.md
 
 ---
 
@@ -250,17 +253,14 @@ GROUP BY status;
 SELECT appointment_date, COUNT(*) 
 FROM appointments
 GROUP BY appointment_date
+```
 
 ---
 
-## 📁 Project Structure
-ehr-data-migration-project/
-├── data/
-│   └── ehr-appointments.csv
-├── sql/
-│   └── ehr-queries.sql
-├── visuals/
-│   └── ehr-dashboard.png
-├── README.md
+## 🚀 Future Improvements
+- Integrate with live database (PostgreSQL/MySQL)
+- Build interactive dashboard (Power BI / Tableau)
+- Add real-time analytics
+- Expand dataset for deeper insights
 
 ---
