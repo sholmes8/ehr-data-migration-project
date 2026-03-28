@@ -222,6 +222,7 @@ This visualization demonstrates how healthcare data can be used to improve workf
 ---
 
 ## 📁 Project Structure
+```text
 ehr-data-migration-project/
 ├── data/
 │   └── ehr-appointments.csv
@@ -230,7 +231,7 @@ ehr-data-migration-project/
 ├── visuals/
 │   └── ehr-dashboard.png
 ├── README.md
-
+```
 ---
 
 ## Example SQL Queries
