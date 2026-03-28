@@ -224,7 +224,7 @@ This visualization demonstrates how healthcare data can be used to improve workf
 - Expand dataset for deeper insights
 
 ## Example SQL Queries
-'''sql
+```sql
 -- Count total appointments
 SELECT COUNT(*) FROM appointments;
 
