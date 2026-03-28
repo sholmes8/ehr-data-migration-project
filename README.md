@@ -211,7 +211,7 @@ This schema supports structured storage, reporting, and relationship mapping acr
 The dashboard below highlights key operational insights, including provider workload and appointment status trends.
 
 This visualization demonstrates how healthcare data can be used to improve workflow efficiency and support decision-making.
-<img width="472" height="295" alt="ehr-dashboard" src="https://github.com/user-attachments/assets/959f7adf-0cbc-42e0-8359-b418b2cd87c6" />
+![EHR Dashboard](visuals/ehr-dashboard.png)
 
 
 ---
