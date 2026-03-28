@@ -254,8 +254,6 @@ GROUP BY appointment_date
 ---
 
 ## 📁 Project Structure
-
-```text
 ehr-data-migration-project/
 ├── data/
 │   └── ehr-appointments.csv
