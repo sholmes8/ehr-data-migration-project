@@ -244,6 +244,8 @@ SELECT appointment_date, COUNT(*)
 FROM appointments
 GROUP BY appointment_date
 
+```markdown
+
 ## 📁 Project Structure
 
 ```text
