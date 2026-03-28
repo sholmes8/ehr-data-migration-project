@@ -207,17 +207,6 @@ This schema supports structured storage, reporting, and relationship mapping acr
 
 ---
 
-## 📁 Project Structure
-
-```text
-ehr-data-migration-project/
-├── data/
-├── sql/
-├── dashboard/
-├── README.md
-```text
----
-
 ## 📊 Dashboard
 The dashboard below highlights key operational insights, including provider workload and appointment status trends.
 
@@ -254,4 +243,14 @@ GROUP BY status;
 SELECT appointment_date, COUNT(*) 
 FROM appointments
 GROUP BY appointment_date
-ORDER BY appointment_date;
+
+## 📁 Project Structure
+
+```text
+ehr-data-migration-project/
+├── data/
+├── sql/
+├── dashboard/
+├── README.md
+
+---
