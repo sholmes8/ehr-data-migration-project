@@ -215,7 +215,7 @@ ehr-data-migration-project/
 ├── sql/
 ├── dashboard/
 ├── README.md
-
+```text
 ---
 
 ## 📊 Dashboard
@@ -255,5 +255,3 @@ SELECT appointment_date, COUNT(*)
 FROM appointments
 GROUP BY appointment_date
 ORDER BY appointment_date;
-
-
