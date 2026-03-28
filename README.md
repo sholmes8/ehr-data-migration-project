@@ -213,6 +213,11 @@ The dashboard below highlights key operational insights, including provider work
 This visualization demonstrates how healthcare data can be used to improve workflow efficiency and support decision-making.
 ![EHR Dashboard](visuals/ehr-dashboard.png)
 
+### Key Insights
+
+- Dr. Smith handled the highest number of appointments
+- Completed visits made up the majority of appointment outcomes
+- Primary Care had the highest visit volume across departments
 
 ---
 
@@ -244,15 +249,16 @@ SELECT appointment_date, COUNT(*)
 FROM appointments
 GROUP BY appointment_date
 
-```markdown
-
 ## 📁 Project Structure
 
 ```text
 ehr-data-migration-project/
 ├── data/
+│   └── ehr-appointments.csv
 ├── sql/
-├── dashboard/
+│   └── ehr-queries.sql
+├── visuals/
+│   └── ehr-dashboard.png
 ├── README.md
 
 ---
